@@ -1,32 +1,34 @@
 package HPC2022.Project;
 
 import HPC2022.Project.Parallel.ParallelSum;
+import HPC2022.Project.Parallel.ParallelSumTask;
 import HPC2022.Project.Sequential.SequentialSum;
 
 import java.io.File;
 import java.util.Scanner;
+import java.util.concurrent.ForkJoinPool;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         long start, end;
         double timeSequential, timeParallel;
-        int resSequental, resParallel;
+        long resSequental, resParallel;
 
         ParallelSum parallelSum = new ParallelSum();
 
         int cores = Runtime.getRuntime().availableProcessors();
 
-        Scanner scanner = new Scanner(new File("input.txt"));
+        Scanner scanner = new Scanner(new File("testcase6.txt"));
         int n = scanner.nextInt();
-        int [] array = new int [n];
+        long [] array = new long [n];
         int x = 0;
 
-        while(scanner.hasNextInt())
+        while(scanner.hasNextLong())
         {
-            array[x++] = scanner.nextInt();
+            array[x++] = scanner.nextLong();
         }
 
-        int threshold = (array.length/cores);
+        int threshold = n/4;
 
         System.out.println("SEQUENTIAL SUMMING");
         System.out.println("The sum is: ");
@@ -36,13 +38,16 @@ public class Main {
         timeSequential = (end-start)/1000000.0;
         System.out.println("Time used is: " + timeSequential + "milliseconds");
         System.out.println("PARALLEL SUMMING");
-        System.out.println("The sum is: ");
         start = System.nanoTime();
-        resParallel = parallelSum.parallelArraySum(array, n, threshold);
+        //ParallelSumTask parallelSumming = new ParallelSumTask(array, 0, n, threshold);
+        //ForkJoinPool pool = new ForkJoinPool();
+        //pool.execute(parallelSumming);
+        resParallel = parallelSum.parallelArraySum(array, threshold);
+        System.out.println("The sum is: " + resParallel);
         end = System.nanoTime();
         timeParallel = (end-start)/1000000.0;
         System.out.println("time used is: " + timeParallel + "milliseconds");
-
-
+        System.out.println("Speedup is: " + timeSequential/timeParallel);
+        System.out.println("Efficency is: " + (timeSequential/timeParallel)/cores);
     }
 }

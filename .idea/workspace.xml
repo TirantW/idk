@@ -19,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/idk" />
+  </component>
   <component name="ProjectId" id="27lWRXHkphbfAzrHSgrJK53A7pP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parallell/assing/assignment-TirantW/assignment10/mpi" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20913108" />
@@ -67,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649895144350</updated>
       <workItem from="1649895147451" duration="10319000" />
+      <workItem from="1650068450579" duration="1508000" />
+      <workItem from="1650071179166" duration="13361000" />
     </task>
     <servers />
   </component>
@@ -86,22 +93,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1649904400884" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1649907660220">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1650071376959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1649907660220" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1649907660220">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650071376959" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1650391725555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1649907660220" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1649907660219">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650391725555" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1650391725555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1649907660219" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1649907660220">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650391725555" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1650391725555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1649907660220" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650391725555" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1650391725555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1650391725555" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1649895694194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
